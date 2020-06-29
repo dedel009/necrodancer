@@ -1,0 +1,120 @@
+body {
+    background-color:#000000;
+}
+
+
+html:hover  #crypt_logo {
+    visibility:visible;
+    opacity:1.0;
+
+}
+
+html:hover  #of_the_logo {
+    visibility:visible;
+    opacity:1.0;
+
+}
+
+html:hover  #necrodancer_logo {
+    visibility:visible;
+    opacity:1.0;
+
+}
+
+html:hover  #bone_logo_left {
+    visibility:visible;
+    opacity:1.0;
+
+}
+
+html:hover  #bone_logo_right {
+    visibility:visible;
+    opacity:1.0;
+
+}
+
+
+#productor_logo {
+    position:fixed;
+    left:80%;
+    top:80%;
+    animation: blink_animation 1.0s steps(3, start) infinite alternate;
+    -webkit-animation: blink_animation 1.0s steps(3, start) infinite alternate;
+}
+
+#crypt_logo {
+    position:fixed;
+    left:44%;
+    top:22%;
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0.3s, opacity 5s;
+
+}
+
+#of_the_logo {
+    position:fixed;
+    left:46%;
+    top:31%;
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0.3s, opacity 9s;
+
+}
+
+#necrodancer_logo {
+    position:fixed;
+    left:35%;
+    top:36%;
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0.3s, opacity 13s;
+
+}
+
+#bone_logo_left {
+    position:fixed;
+    left:38%;
+    top:28%;
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0.3s, opacity 1s;
+    animation: blink_animation 0.5s steps(6, start) infinite alternate;
+    -webkit-animation: blink_animation 0.5s steps(6, start) infinite alternate;
+}
+
+#bone_logo_right {
+    position:fixed;
+    left:57%;
+    top:28%;
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0.3s, opacity 1s;
+    animation: blink_animation 0.5s steps(6, start) infinite alternate;
+    -webkit-animation: blink_animation 0.5s steps(6, start) infinite alternate;
+}
+
+#nickname {
+    position:fixed;
+    left:40%;
+    top:65%;
+    color:white;
+}
+
+
+@keyframes blink_animation {
+    from {
+        visibility: visibility;
+    }
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink_animation {
+    from {
+        visibility: visibility;
+    }
+    to {
+        visibility: hidden;
+    }
+}

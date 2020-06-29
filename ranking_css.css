@@ -1,0 +1,78 @@
+body {
+    background-color:#000000;
+}
+
+    #ranking {
+        position: fixed;
+        width: 60%; height: 100%;
+        top:3%; left: 18%;
+    }
+
+    .name {
+        color: white;
+    }
+
+    #num1 {
+        position: fixed;
+        left: 25%;
+        top: 30%;
+    }
+
+    #num2 {
+        position: fixed;
+        left: 25%;
+        top: 42%;
+    }
+
+    #num3 {
+        position: fixed;
+        left: 25%;
+        top: 54%;
+    }
+
+    #num4 {
+        position: fixed;
+        left: 25%;
+        top: 66%;
+    }
+
+    #num5 {
+        position: fixed;
+        left: 25%;
+        top: 78%;
+    }
+
+    #rank1 {
+        font-size:40px;
+        position: fixed;
+        left: 30%;
+        top: 26%;
+    }
+
+    #rank2 {
+        font-size:40px;
+        position: fixed;
+        left: 30%;
+        top: 38%;
+    }
+
+    #rank3 {
+        font-size:40px;
+        position: fixed;
+        left: 30%;
+        top: 50%;
+    }
+
+    #rank4 {
+        font-size:40px;
+        position: fixed;
+        left: 30%;
+        top: 62%;
+    }
+
+    #rank5 {
+        font-size:40px;
+        position: fixed;
+        left: 30%;
+        top: 74%;
+    }
